@@ -1,0 +1,270 @@
+{
+	"testID": 2,
+	"testName": "SQL Test",
+	"questions": 
+		[
+			{
+			"questionID":1,
+			"question": "Which is the correct way of displaying all rows from a table",
+			"answer": "C",
+			"options": 
+				[
+					{
+					"questionID":1,
+					"optionID":"A",
+					"optionDesc":"SELECT ALL FROM myTable;"
+					},
+					{
+					"questionID":1,
+					"optionID":"B",
+					"optionDesc":"SELECT rows FROM myTable;"
+					},
+					{
+					"questionID":1,
+					"optionID":"C",
+					"optionDesc":"SELECT * FROM myTable;"
+					},
+					{
+					"questionID":1,
+					"optionID":"D",
+					"optionDesc":"READ * FROM myTable"
+					}
+				]
+			},
+			
+			{
+			"questionID":2,
+			"question": "T/F: SQL can create stored procedures in a database.",
+			"answer": "A",
+			"options": 
+				[
+					{
+					"questionID":2,
+					"optionID":"A",
+					"optionDesc":"True"
+					},
+					{
+					"questionID":2,
+					"optionID":"B",
+					"optionDesc":"False"
+					}
+					
+				]
+			},
+			
+			{
+			"questionID":3,
+			"question": "SQL is an acronym for what?",
+			"answer": "A",
+			"options": 
+				[
+					{
+					"questionID":3,
+					"optionID":"A",
+					"optionDesc":"Structured Query Language"
+					},
+					{
+					"questionID":3,
+					"optionID":"B",
+					"optionDesc":"Synchronous Query Language"
+					},
+					{
+					"questionID":3,
+					"optionID":"C",
+					"optionDesc":"Structural Qualitative List"
+					},
+					{
+					"questionID":3,
+					"optionID":"D",
+					"optionDesc":"System Query Logic"
+					}
+				]
+			}
+			
+			{
+			"questionID":4,
+			"question": "Which is a correct insertion command?",
+			"answer": "D",
+			"options": 
+				[
+					{
+					"questionID":4,
+					"optionID":"A",
+					"optionDesc":"INSERTION myTable (col1, col2, col3) VALUES (1,2,3);"
+					},
+					{
+					"questionID":4,
+					"optionID":"B",
+					"optionDesc":"INSERT (1,2,3) INTO myTable WHERE (col1, col2, col3);"
+					},
+					{
+					"questionID":4,
+					"optionID":"C",
+					"optionDesc":"INSERT IN myTable (col1, col2, col3)(1,2,3);"
+					},
+					{
+					"questionID":4,
+					"optionID":"D",
+					"optionDesc":"INSERT INTO myTable (col1, col2, col3) VALUES (1,2,3);"
+					}
+				]
+			},
+			
+			{
+			"questionID":5,
+			"question": "T/F: SELECT UNIQUE is used to return only distinct values from a table.",
+			"answer": "B",
+			"options": 
+				[
+					{
+					"questionID":5,
+					"optionID":"A",
+					"optionDesc":"True"
+					},
+					{
+					"questionID":5,
+					"optionID":"B",
+					"optionDesc":"False"
+					}
+					
+				]
+			},
+			
+			{
+			"questionID":6,
+			"question": "Which join returns all records from the left table, and matched records from the right table?",
+			"answer": "B",
+			"options": 
+				[
+					{
+					"questionID":6,
+					"optionID":"A",
+					"optionDesc":"Right Outer Join"
+					},
+					{
+					"questionID":6,
+					"optionID":"B",
+					"optionDesc":"Left Outer Join"
+					},
+					{
+					"questionID":6,
+					"optionID":"C",
+					"optionDesc":"Inner Join"
+					},
+					{
+					"questionID":6,
+					"optionID":"D",
+					"optionDesc":"Full Outer Join"
+					}
+				]
+			},
+			
+			{
+			"questionID":7,
+			"question": "Select the correct SQL statement for updating a table",
+			"answer": "C",
+			"options": 
+				[
+					{
+					"questionID":7,
+					"optionID":"A",
+					"optionDesc":"ALTER myTable SET col1='A' WHERE col2=5;"
+					},
+					{
+					"questionID":7,
+					"optionID":"B",
+					"optionDesc":"SELECT myTable UPDATE col1='A' WHERE col2=5;"
+					},
+					{
+					"questionID":7,
+					"optionID":"C",
+					"optionDesc":"UPDATE myTable SET col1='A' WHERE col2=5;"
+					},
+					{
+					"questionID":7,
+					"optionID":"D",
+					"optionDesc":"CHANGE myTable WITH col1='A' GIVEN col2=5;"
+					}
+				]
+			},
+			
+			{
+			"questionID":8,
+			"question": "T/F: In SQL a table cannot be joined with itself.",
+			"answer": "B",
+			"options": 
+				[
+					{
+					"questionID":8,
+					"optionID":"A",
+					"optionDesc":"True"
+					},
+					{
+					"questionID":8,
+					"optionID":"B",
+					"optionDesc":"False"
+					}
+					
+				]
+			},
+			
+			{
+			"questionID":9,
+			"question": "Which SQL keyword is used to establish patterns in a command?",
+			"answer": "A",
+			"options": 
+				[
+					{
+					"questionID":9,
+					"optionID":"A",
+					"optionDesc":"LIKE"
+					},
+					{
+					"questionID":9,
+					"optionID":"B",
+					"optionDesc":"PATTERN"
+					},
+					{
+					"questionID":9,
+					"optionID":"C",
+					"optionDesc":"AS-IF"
+					},
+					{
+					"questionID":9,
+					"optionID":"D",
+					"optionDesc":"SIMILAR"
+					}
+				]
+			},
+			
+			{
+			"questionID":10,
+			"question": "What is matched when joining tables in SQL?",
+			"answer": "C",
+			"options": 
+				[
+					{
+					"questionID":10,
+					"optionID":"A",
+					"optionDesc":"table names"
+					},
+					{
+					"questionID":10,
+					"optionID":"B",
+					"optionDesc":"PRIMARY KEY"
+					},
+					{
+					"questionID":10,
+					"optionID":"C",
+					"optionDesc":"FOREIGN KEY"
+					},
+					{
+					"questionID":10,
+					"optionID":"D",
+					"optionDesc":"INDEX"
+					}
+				]
+			}
+		]
+
+}
