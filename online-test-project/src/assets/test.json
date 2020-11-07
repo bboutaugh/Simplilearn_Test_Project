@@ -1,4 +1,275 @@
 {
+	"testID": 1,
+	"testName": "JavaScript Test",
+	"questions": 
+		[
+			{
+			"questionID":1,
+			"question": "Which is the correct way to implement multiline comments in JavaScript?",
+			"answer": "A",
+			"options": 
+				[
+					{
+					"questionID":1,
+					"optionID":"A",
+					"optionDesc":"/* Comment */"
+					},
+					{
+					"questionID":1,
+					"optionID":"B",
+					"optionDesc":"// Comment //"
+					},
+					{
+					"questionID":1,
+					"optionID":"C",
+					"optionDesc":"# Comment #"
+					},
+					{
+					"questionID":1,
+					"optionID":"D",
+					"optionDesc":"<!--Comment-->"
+					}
+				]
+			},
+			
+			{
+			"questionID":2,
+			"question": "T/F: Local variables within a JavaScript function can be accessed outside of said function.",
+			"answer": "B",
+			"options": 
+				[
+					{
+					"questionID":2,
+					"optionID":"A",
+					"optionDesc":"True"
+					},
+					{
+					"questionID":2,
+					"optionID":"B",
+					"optionDesc":"False"
+					}
+					
+				]
+			},
+			
+			{
+			"questionID":3,
+			"question": "The 'this' keyword refers to the _____ of the function?",
+			"answer": "C",
+			"options": 
+				[
+					{
+					"questionID":3,
+					"optionID":"A",
+					"optionDesc":"arguments"
+					},
+					{
+					"questionID":3,
+					"optionID":"B",
+					"optionDesc":"signature"
+					},
+					{
+					"questionID":3,
+					"optionID":"C",
+					"optionDesc":"owner"
+					},
+					{
+					"questionID":3,
+					"optionID":"D",
+					"optionDesc":"name"
+					}
+				]
+			}
+			
+			{
+			"questionID":4,
+			"question": "Which property returns the length of a string?",
+			"answer": "B",
+			"options": 
+				[
+					{
+					"questionID":4,
+					"optionID":"A",
+					"optionDesc":"size"
+					},
+					{
+					"questionID":4,
+					"optionID":"B",
+					"optionDesc":"length"
+					},
+					{
+					"questionID":4,
+					"optionID":"C",
+					"optionDesc":"strlen"
+					},
+					{
+					"questionID":4,
+					"optionID":"D",
+					"optionDesc":"len"
+					}
+				]
+			},
+			
+			{
+			"questionID":5,
+			"question": "T/F: The substring() method cannot accept negative indexes.",
+			"answer": "A",
+			"options": 
+				[
+					{
+					"questionID":5,
+					"optionID":"A",
+					"optionDesc":"True"
+					},
+					{
+					"questionID":5,
+					"optionID":"B",
+					"optionDesc":"False"
+					}
+					
+				]
+			},
+			
+			{
+			"questionID":6,
+			"question": "Which option is an appropriate way of accessing the last array element?",
+			"answer": "C",
+			"options": 
+				[
+					{
+					"questionID":6,
+					"optionID":"A",
+					"optionDesc":"myArr[myArr.length]"
+					},
+					{
+					"questionID":6,
+					"optionID":"B",
+					"optionDesc":"myArr[50]"
+					},
+					{
+					"questionID":6,
+					"optionID":"C",
+					"optionDesc":"myArr[myArr.length-1]"
+					},
+					{
+					"questionID":6,
+					"optionID":"D",
+					"optionDesc":"myArr[lastElem]"
+					}
+				]
+			},
+			
+			{
+			"questionID":7,
+			"question": "Which among these is an incorrect instance of an array?",
+			"answer": "C",
+			"options": 
+				[
+					{
+					"questionID":7,
+					"optionID":"A",
+					"optionDesc":"var arr = ['Jane', 'Dave', 'Mary'];"
+					},
+					{
+					"questionID":7,
+					"optionID":"B",
+					"optionDesc":"var arr = ['Jane', 'Dave', 5];"
+					},
+					{
+					"questionID":7,
+					"optionID":"C",
+					"optionDesc":"var arr = {'Jane', 'Dave', 'Mary'};"
+					},
+					{
+					"questionID":7,
+					"optionID":"D",
+					"optionDesc":"var arr = new Array('Jane', 'Dave', 'Mary');"
+					}
+				]
+			},
+			
+			{
+			"questionID":8,
+			"question": "T/F: The JavaScript method toString() converts an array to a string of space separated array values.",
+			"answer": "B",
+			"options": 
+				[
+					{
+					"questionID":8,
+					"optionID":"A",
+					"optionDesc":"True"
+					},
+					{
+					"questionID":8,
+					"optionID":"B",
+					"optionDesc":"False"
+					}
+					
+				]
+			},
+			
+			{
+			"questionID":9,
+			"question": "What is the correct way of defining a constructor within a JavaScript class?",
+			"answer": "D",
+			"options": 
+				[
+					{
+					"questionID":9,
+					"optionID":"A",
+					"optionDesc":"ClassName(){}"
+					},
+					{
+					"questionID":9,
+					"optionID":"B",
+					"optionDesc":"construct(){}"
+					},
+					{
+					"questionID":9,
+					"optionID":"C",
+					"optionDesc":"Constructor(){}"
+					},
+					{
+					"questionID":9,
+					"optionID":"D",
+					"optionDesc":"constructor(){}"
+					}
+				]
+			},
+			
+			{
+			"questionID":10,
+			"question": "What keyword is used in forms to prevent form submission upon a particular field being empty?",
+			"answer": "A",
+			"options": 
+				[
+					{
+					"questionID":10,
+					"optionID":"A",
+					"optionDesc":"required"
+					},
+					{
+					"questionID":10,
+					"optionID":"B",
+					"optionDesc":"restricted"
+					},
+					{
+					"questionID":10,
+					"optionID":"C",
+					"optionDesc":"mandatory"
+					},
+					{
+					"questionID":10,
+					"optionID":"D",
+					"optionDesc":"regulated"
+					}
+				]
+			}
+		]
+
+},
+
+{
 	"testID": 2,
 	"testName": "SQL Test",
 	"questions": 
