@@ -1,1 +1,23 @@
-<p>test works!</p>
+<div class="container" (onload)="loadTest('./jscript.json')">
+    <div class="row">
+       <div class="col-md-1"></div>
+       <div class="col-md-10">
+            <div>
+                <h2>Q Corp.</h2>
+                <h3>{{test.TestName}}</h3>
+                <p [innerHTML]="question.questionDesc"></p> 
+                <div *ngFor="let option of question.options">
+                    <input type="radio" id={{option.optionID}}>{{option.optionDesc}}
+                </div>
+                <button>Previous</button>
+                <button>Next</button>
+            </div>
+       </div>
+       <div class="col-md-1"></div>
+    </div>
+    <div class="row">
+        <div>
+            <button>Submit</button>
+        </div>
+    </div>
+</div>

@@ -1,16 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PortalComponent } from './portal/portal.component';
-import { TestComponent } from './test/test.component';
+import {AppRoutingModule, RoutingComponent} from './app-routing.module';
 
 @NgModule({
+
   declarations: [
     AppComponent,
-    PortalComponent,
-    TestComponent
+    RoutingComponent
   ],
   imports: [
     BrowserModule,
