@@ -3,6 +3,7 @@
        <div class="col-md-1"></div>
        <div class="col-md-10" >
             <div *ngFor = "let t of test">
+              
                 <h3>{{t.testName}}</h3>
                 <p [innerHTML] = "currentQuestion().question"></p>
             </div>
