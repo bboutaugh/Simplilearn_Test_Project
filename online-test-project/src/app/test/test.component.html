@@ -12,13 +12,14 @@
     </div>
     <div class="row">
         <div *ngFor = "let option of currentQuestion().options">
-           {{option.optionID}} <input type="radio" name="testOption">{{option.optionDesc}}
+           {{option.optionID}} <input type="radio" name="testOption" value="option.optionID" (click) = "logAnswer(option.questionID,option.optionID)">{{option.optionDesc}}
         </div>
         <div >
             <p></p>
             <button (click)="prevQuestion()">Previous</button>
             <button (click)="nextQuestion()">Next</button>
-            <button (click)="loadTestInfo()">Submit</button>
+            <button (click)="processResults()">Submit</button>
+            <p [innerHTML]="this.result"></p>
         </div>
     </div>
 </div>
