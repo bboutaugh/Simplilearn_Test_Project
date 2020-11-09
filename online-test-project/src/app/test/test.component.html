@@ -5,19 +5,19 @@
             <div *ngFor = "let t of test">
                 <h2>Q Corp.</h2>
                 <h3>{{t.testName}}</h3>
-                <p [innerHTML] = "currentQuestion(0).question"></p>
+                <p [innerHTML] = "currentQuestion().question"></p>
             </div>
        </div>
        <div class="col-md-1"></div>
     </div>
     <div class="row">
-        <div *ngFor = "let option of currentQuestion(0).options">
-           {{option.optionID}} <input type="radio">{{option.optionDesc}}
+        <div *ngFor = "let option of currentQuestion().options">
+           {{option.optionID}} <input type="radio" name="testOption">{{option.optionDesc}}
         </div>
         <div >
             <p></p>
-            <button>Previous</button>
-            <button>Next</button>
+            <button (click)="prevQuestion()">Previous</button>
+            <button (click)="nextQuestion()">Next</button>
             <button (click)="loadTestInfo()">Submit</button>
         </div>
     </div>

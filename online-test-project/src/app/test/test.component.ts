@@ -16,7 +16,7 @@ export class TestComponent implements OnInit
 
   constructor(private testService: TestService){}
   
-  testString="my test";
+  index:any=0;
   test: Test[];
  
   
@@ -31,11 +31,27 @@ export class TestComponent implements OnInit
       console.log("this.test.testID");
     }
 
-    currentQuestion(index:number): Question
+    currentQuestion(): Question
     {
       
-      return this.test[0].questions[index];
+      return this.test[0].questions[this.index];
       
+    }
+
+    nextQuestion():void
+    {
+      if(this.index < 10)
+      {
+        this.index += 1;
+      }
+    }
+
+    prevQuestion():void
+    {
+      if(this.index > 0)
+      {
+        this.index -= 1;
+      }
     }
 
    
