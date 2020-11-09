@@ -1,8 +1,7 @@
-{
-	"testID": 1,
+{"test":[{
+	"testID":1,
 	"testName": "JavaScript Test",
-	"questions": 
-		[
+	"questions": [
 			{
 			"questionID":1,
 			"question": "Which is the correct way to implement multiline comments in JavaScript?",
@@ -266,5 +265,4 @@
 				]
 			}
 		]
-
-}
+}]}
