@@ -10,23 +10,34 @@ import {Option} from '../option.model';
   styleUrls: ['./test.component.css'],
   providers:[TestService]
 })
-export class TestComponent implements OnInit {
-  //test: Test = new Test(null);
-  //page = {index:0, amount:0, count:0};
-  //constructor(private testService: TestService) { }
 
-  ngOnInit(): void 
-  {
-    /*this.testService.get('./jscript.json').subscribe(res=>
-      {
-      this.test = new Test(res);
-      });
-  }
+export class TestComponent implements OnInit 
+{
 
-  get questions()
-  {
-    return(this.test.questions)
-  }*/
-}
+  constructor(private testService: TestService){}
+  
+  testString="my test";
+  test: Test[];
+ 
+  
+    ngOnInit(): void 
+    {  
+      this.loadTestInfo();
+    }
+
+    loadTestInfo(): void
+    {
+      this.testService.loadTest().subscribe(data=>this.test=data);
+      console.log("this.test.testID");
+    }
+
+    currentQuestion(index:number): Question
+    {
+      
+      return this.test[0].questions[index];
+      
+    }
+
+   
 }
 

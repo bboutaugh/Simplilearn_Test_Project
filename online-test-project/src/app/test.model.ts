@@ -13,9 +13,9 @@ export class Test
            this.testID = data.testID;
            this.testName = data.testName;
            this.questions = [];
-           data.questions.forEach(ques=>{
-               this.questions.push(new Question(ques));
-           });
+           data.questions.forEach(q=>{
+               this.questions.push(new Question(q));
+           })
        }
    }
 }
